@@ -92,7 +92,7 @@ if (submitButt) {
                             <p>type : ${newBike.type}</p>
                             <p>wheel size : ${newBike.wheel}</p>
                             <p>frame : ${newBike.frame}</p>
-                            <p>color : ${newBike.color}    <span class="colorBuy" id="colorBuy${bikes.length}">♦️</span></p>
+                            <p>color : ${newBike.color}    <span class="colorBuy" id="colorBuy${bikes.length}">■</span></p>
                             <p>price : ${newBike.price}</p>
                             <p>available : ${newBike.available}</p>
                         </td>
