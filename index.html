@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MyBikeShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="etahae">
+    <link rel="stylesheet", href="./src/css/style.css">
+    <link rel="icon" href ="images/icon.png">
+</head>
+
+<body>
+	<image src="./src/images/bg.jpg" title="bike" id="bg_img"></image>
+
+    <div class="topnav">
+        <a href="#sell" id="sellButt">Sell</a>
+        <a href="#home" class="active" id="homeButt">Home</a>
+        <a href="#buy" id="buyButt">Buy</a>
+    </div>
+
+    <div class="bigDiv">
+        <div id="sell" class="sell">
+            <form id="sellForm">
+                <label for="brand">brand</label>
+                <input id="brand" type="text"> <br> <br>
+                <label for="type">type</label>
+                <input id="type" type="text"> <br> <br>
+                <label for="wheel">wheel size (inch)</label>
+                <input id="wheel" type="number"> <br> <br>
+                <label for="frame">frame</label>
+                <input id="frame" type="text"> <br> <br>
+                <label for="price">price ($)</label>
+                <input id="price" type="number"> <br> <br>
+                <label for="color">color</label>
+                <input id="color" type="color"> <br> <br>
+                <div id="inputImageDiv">
+                    <form id="inputImageForm">
+                        <label for="img_input">Input an image to display for your bike.</label>
+                        <input id="img_input" type="file" name="myImage" accept="image/png, image/gif, image/jpeg">
+                    </form>
+                </div>
+            </form>
+            <button class="sellButts" type="button" id="submitButt">submit</button>
+        </div>
+
+        <div id="home" class="home">
+            <h1 id="welcomeTitle">Welcome To MyBikeShop</h1>
+            <h3 id="question">Are you a bikes lover?</h3>
+            <h4>Then you are in the right place!</h4>
+            <h5>&ltSELL________________BUY&gt</h5>
+        </div>
+
+        <div class="buy" id="buy">
+            <h3 id="noBikes">No bikes for sale currently, please come back later!</h3>
+            <table id="bikesTable" align="left" border="0" cellpadding="3" cellspacing="3">
+            </table>
+        </div>
+    </div>
+
+    <script src="./dist/index.js"></script>
+</body>
+
+</html>

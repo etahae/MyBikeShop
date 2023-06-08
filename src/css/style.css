@@ -1,0 +1,199 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bg_img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.topnav {
+    width: max-content;
+    overflow: hidden;
+    background-color: #333;
+    margin: auto;
+    margin-bottom: 2%;
+    border-radius: 10px;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #8b8b8b;
+    color: white;
+}
+
+.bigDiv {
+    white-space: nowrap;
+    position: relative;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+    text-align: center;
+}
+
+.bigDiv div {
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    height: 90%;
+}
+
+.buy {
+    text-align: center;
+    position:absolute;
+    margin-left: 100%;
+    color: #c5c4c4;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.home {
+    position: absolute;
+    color: #999999;
+    font-size:large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.home h3 {
+    margin-top: 25%;
+    color: black;
+    background-color: #8b8b8b;
+}
+.home h4 {
+    color: #aca7a7;
+    font-size: medium;
+}
+.home h5 {
+    color: #ffffff;
+    font-size: small;
+}
+
+.sell {
+    font-weight: bolder;
+    font-size: large;
+    color: #ddd;
+}
+
+.sell form {
+    text-align: left;
+}
+
+#sellForm {
+    padding-left: 10%;
+}
+
+#sellForm input {
+    background: #383b3df5;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: small;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #0f1010, inset -6px -6px 6px white;
+    font-weight: bolder;
+}
+
+#sellForm label {
+    display: block;
+}
+
+#submitButt {
+    position:unset;
+}
+
+#color {
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    padding-left: 5px!important;
+}
+
+#inputImageForm label{
+    display: block;
+}
+
+#inputImageForm input {
+    position: relative;
+}
+
+.buy table {
+    display: none; overflow-x : scroll; overflow-y: scroll;
+    /* text-align: center; */
+    /* background-color: transparent; */
+    width:70%;
+    margin-inline: 15%;
+    table-layout:fixed;
+    line-height: 8px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-right: 20px;
+    border: 10px solid #999999;
+}
+
+.buy table tr {
+    height: 150px;
+    padding-top: 3%;
+    /* padding-bottom: 3%; */
+    scroll-behavior: smooth;
+}
+.buy table td {
+    width: 40%;
+    text-align: left;
+    padding-left: 3%;
+}
+.buy label{
+    font-weight: bolder;
+    font-size: larger;
+    color: #f2f2f2;
+}
+
+.colorBuy {
+    /* display: inline-block; */
+    height: 25px;
+    width: 25px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    font-size: larger;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+.bike_img {
+    display: block;
+    max-width: 90%;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+button {
+    background-color: #2c2b2b;
+    color: #bcbaba;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+}
